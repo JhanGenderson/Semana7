@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
+      crossorigin="anonymous"
+    />
+    <style>
+      .oscuro {
+        background: #ff8855;
+      }
+      .claro {
+        background: #cccccc;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- container va ser un contenedor, pero el ancho se centrara de forma automatica -->
+    <main class="container">
+      <div class="row">
+        <div class="col oscuro">
+            Mi 1ra columna
+        </div>
+        <div class="col claro">
+            Mi 2da columna
+        </div>
+        <div class="col oscuro">
+            Mi 3ra columna
+        </div>
+        <div class="col claro">
+            Mi 4ta columna
+        </div>
+      </div>
+      <hr />
+      <div class="row">
+        <div class="col-8 claro">
+            Columna de 8
+        </div>
+        <div class="col-4 oscuro">
+            Columna de 4
+        </div>
+      </div>
+      <hr>
+      <h2>
+          Columnas Responsivas
+      </h2>
+      <h3>
+          <code>
+              col-xl
+          </code>
+      </h3>
+      <h5>xl->Las columnas colapsan si es menor a 1200px de ancho</h5>
+      <div class="row">
+        <div class="col-xl-6 oscuro">
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, fuga.
+            </p>
+        </div>
+        <div class="col-xl-6 claro">
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, fuga.
+            </p>
+        </div>
+      </div>
+      <hr>
+      <h3>
+          <code>
+              col-lg
+          </code>
+      </h3>
+      <h5>
+          lg->Las columnas colapsan a menos de 992px
+      </h5>
+      <div class="row">
+        <div class="col-lg-6 oscuro">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, consectetur!
+        </div>
+        <div class="col-lg-6 claro">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, consectetur!
+          </div>
+      </div>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

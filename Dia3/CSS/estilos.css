@@ -1,0 +1,52 @@
+h1 {
+  color: #058ed9;
+  font-size: 48px;
+}
+
+.boton {
+  padding: 20px;
+  background-color: blue;
+  color: white;
+}
+
+.resumenes {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menu {
+  max-width: 500px;
+  background-color: #77685d;
+}
+.menu .menu__lista {
+  list-style: none;
+  height: 50px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.menu .menu__lista .menu__item {
+  margin-top: 10px;
+}
+.menu .menu__lista .menu__link {
+  color: white;
+  text-decoration: none;
+}
+.menu .menu__lista .menu__link:hover {
+  background-color: gray;
+}
